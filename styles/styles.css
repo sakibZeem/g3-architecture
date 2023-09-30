@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Kanit&family=Open+Sans&family=Poppins&family=Satisfy&family=Sedgwick+Ave+Display&display=swap');
+
+* {
+    font-family: 'Dosis', sans-serif;
+}
+
+:root {}
+
+body {
+    margin: 0 240px;
+    /* background: rgba(255, 144, 14, 0.10); */
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    border: 0;
+    width: 180px;
+    height: 64px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    cursor: pointer;
+}
+
+/* navbar */
+.header {}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-tittle {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav-item {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-tittle {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.banner-img {
+    border-radius: 8px;
+    width: 1440px;
+    height: 700px;
+}
+
+/* quicklist */
+.quick-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 76px;
+    margin-top: 85px;
+}
+
+.quick-list-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+.quick-list-tittle {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+#span-1 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#span-2 {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
